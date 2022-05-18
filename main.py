@@ -133,7 +133,7 @@ def main():
     # Program end
     end_time = timer()
     elapsed_time = timedelta(seconds=end_time - start_time)
-    print(f"\n{Fore.GREEN}Successful processing of naive bayes classifier in {elapsed_time}.")
+    print(f"\n{Fore.GREEN}Successful processing of twitter messages in {elapsed_time}.")
 
 
 if __name__ == "__main__":
